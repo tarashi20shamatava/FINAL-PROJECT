@@ -3,6 +3,23 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 600px) {
+  header {
+    height: 90px;
+  }
+  header nav ul {
+    display: none;
+  }
+  .logo {
+    margin-top: 5px;
+  }
+  .burgerdiv {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -48px;
+  }
+  .burgerdiv img {
+    width: 35px;
+    height: 35px;
+  }
 }
