@@ -1,0 +1,231 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #dbe3e8;
+}
+@font-face {
+  font-family: head;
+  src: url(../fonts/GAImeri-Normal.otf);
+}
+@font-face {
+  font-family: headhover;
+  src: url(../fonts/GADara1981-Regular.otf);
+}
+@font-face {
+  font-family: adress;
+  src: url(../fonts/alk-sanet.ttf);
+}
+
+header {
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+  background-color: #002c54;
+  margin-bottom: 15px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px auto;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #fdf6f6;
+  font-size: 20px;
+  font-family: headhover;
+}
+
+.logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.burgerdiv {
+  display: none;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactdiv {
+  width: 950px;
+  height: 800px;
+  border-radius: 40px;
+  background-color: #1cabe2;
+  margin: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.contactdiv h1 {
+  color: white;
+  font-family: head;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.addressdiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.address h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+  font-family: adress;
+  margin-bottom: 13px;
+}
+.address h3 {
+  font-size: 20px;
+  color: rgb(8, 9, 75);
+  /* text-indent: -5px; */
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.gmaildiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.gmail h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+  font-family: adress;
+  text-indent: 54px;
+  margin-bottom: 13px;
+}
+.gmail h3 {
+  display: flex;
+  font-size: 20px;
+  color: rgb(8, 9, 75);
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.phonediv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.phone h2 {
+  font-size: 25px;
+  color: white;
+  font-weight: 200;
+  font-family: adress;
+  text-indent: 5px;
+  margin-bottom: 13px;
+}
+.phone h3 {
+  display: flex;
+  font-size: 20px;
+  color: rgb(8, 9, 75);
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+.phone h4 {
+  display: flex;
+  font-size: 20px;
+  color: rgb(8, 9, 75);
+  font-weight: 100;
+}
+.map {
+  position: relative;
+  /* overflow: hidden; */
+  padding-top: 56.25%;
+  margin-top: -50px;
+}
+.map iframe {
+  border-radius: 15px;
+  position: absolute;
+  top: 50;
+  bottom: 50;
+  width: 100%;
+  height: 300px;
+}
+/* #383434 */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0px;
+  border-radius: 9px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+  font-family: adress;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #2596be;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #bbbbbb;
+  font-weight: 300;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+/* .footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+} */
+/*  */
+/*  */
+.footerlogo img {
+  width: 150px;
+}

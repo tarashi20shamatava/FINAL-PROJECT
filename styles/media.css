@@ -1,6 +1,23 @@
+@media only screen and (max-width: 1249px) {
+  .aboutus {
+    height: 1500px;
+    width: 100%;
+  }
+
+  .aboutusp {
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 1164px) {
   header nav ul {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 40px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -23,3 +40,56 @@
     height: 35px;
   }
 }
+@media only screen and (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .contactdiv h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .contactdiv h1 {
+    font-size: 25px;
+  }
+}
+/* @media only screen and (max-width: 570px) {
+  .contactdiv h1 {
+    font-size: 20px;
+  }
+} */
+@media only screen and (max-width: 416px) {
+  .contactdiv h1 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .aboutus .h2{
+    font-size: 20px;
+  }
+}
+/* @media only screen and (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+} */
+/* @media only screen and (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+} */
