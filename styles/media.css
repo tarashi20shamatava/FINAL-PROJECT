@@ -1,12 +1,12 @@
 @media only screen and (max-width: 1249px) {
-  .aboutus {
+  /* .aboutus {
     height: 1500px;
     width: 100%;
   }
 
   .aboutusp {
     flex-direction: column;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1164px) {
@@ -14,10 +14,45 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 1111px) {
+  .about {
+    flex-direction: column;
+  }
+  .img img {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .authorization {
+    display: none;
+  }
+  .registration {
+    display: none;
+  }
+  .pinkregaut {
+    align-items: center;
+    flex-direction: column;
+  }
+  .mogesalmebitp p {
+    width: 400px;
+    text-align:center;
+  }
+}
 @media only screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
     margin-bottom: 40px;
+  }
+  .aboutus {
+    width: 400px;
+    height: 800px;
+  }
+  .img img {
+    width: 400px;
+    height: 400px;
+  }
+  .head .shesaxeb h2 {
+    margin: 5 200;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -60,6 +95,12 @@
   .contactdiv h1 {
     font-size: 25px;
   }
+  .mogesalmebit h2{
+    font-size: 30px;
+  }
+  .mogesalmebitp p{
+    font-size: 20px;
+  }
 }
 /* @media only screen and (max-width: 570px) {
   .contactdiv h1 {
@@ -73,9 +114,9 @@
 }
 
 @media only screen and (max-width: 315px) {
-  .aboutus .h2{
+  /* .aboutus .h2{
     font-size: 20px;
-  }
+  } */
 }
 /* @media only screen and (max-width: 767px) {
   .footer-col {
