@@ -1,3 +1,22 @@
+@media only screen and (max-width: 1300px) {
+  /* .aboutus {
+    height: 1500px;
+    width: 100%;
+  }
+
+  .aboutusp {
+    flex-direction: column;
+  } */
+  .supports {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .supports div {
+    margin: 10px;
+  }
+
+}
 @media only screen and (max-width: 1249px) {
   /* .aboutus {
     height: 1500px;
@@ -34,9 +53,10 @@
     flex-direction: column;
   }
   .mogesalmebitp p {
-    width: 400px;
-    text-align:center;
+    width: 700px;
+    text-align: center;
   }
+
 }
 @media only screen and (max-width: 767px) {
   .footer-col {
@@ -47,12 +67,29 @@
     width: 400px;
     height: 800px;
   }
-  .img img {
-    width: 400px;
-    height: 400px;
-  }
+
   .head .shesaxeb h2 {
     margin: 5 200;
+  }
+  .userstatistics {
+    height: 200px;
+  }
+  .customernumber {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .customernumber1 {
+    margin-bottom: 15px;
+  }
+  .banner-image h2 {
+    font-size: 35px;
+  }
+  .wesupport {
+    font-size: 25px;
+  }
+  .wefight{
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -90,26 +127,142 @@
   .contactdiv h1 {
     font-size: 20px;
   }
+  .newtheme {
+    margin-top: -10px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .newtheme {
+    margin-top: -10px;
+  }
 }
 @media only screen and (max-width: 546px) {
   .contactdiv h1 {
     font-size: 25px;
   }
-  .mogesalmebit h2{
+  .mogesalmebit h2 {
     font-size: 30px;
   }
-  .mogesalmebitp p{
+  .mogesalmebitp p {
     font-size: 20px;
   }
+  .forum h2 {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  .newtheme h2 {
+    font-size: 14px;
+  }
+  .newtheme {
+    width: 250px;
+  }
+  /* .customernumber .number1 {
+    font-size: 19px;
+  }
+  .customernumber .numberp1 {
+    font-size: 18px;
+  }
+  .customernumber .number2 {
+    font-size: 14px;
+  }
+  .customernumber .numberp2 {
+    font-size: 14px;
+  } */
 }
 /* @media only screen and (max-width: 570px) {
   .contactdiv h1 {
     font-size: 20px;
   }
 } */
+@media only screen and (max-width: 500px) {
+  /* pics */
+  .firstdiv img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .seconddiv img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .secondiv img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* .firstdiv h2{
+    font-size: 50px;
+    color: red;
+  } */
+  .themes .firstdiv h2 {
+    font-size: 15px;
+  }
+  .pirh {
+    font-size: 12px;
+  }
+  .meoh {
+    font-size: 13px;
+    margin-left: 45px;
+  }
+  .mesh {
+    font-size: 13px;
+  }
+  .posts h2 {
+    font-size: 20px;
+  }
+  .posts p {
+    font-size: 14px;
+  }
+  .pirhh {
+    font-size: 12px;
+  }
+  .meohh {
+    font-size: 13px;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 444px) {
+  .pirh {
+    font-size: 9px;
+  }
+  .posts h2 {
+    font-size: 18px;
+  }
+  .posts p {
+    font-size: 10px;
+  }
+  .meorea2 h2 {
+    font-size: 10px;
+    margin-left: 90px;
+  }
+  .mesamea2 h2 {
+    font-size: 10px;
+  }
+  .pirhh {
+    font-size: 9px;
+  }
+  .meohh {
+    font-size: 10px;
+    width: 170px;
+    margin-left: 80px;
+  }
+}
 @media only screen and (max-width: 416px) {
   .contactdiv h1 {
     font-size: 17px;
+  }
+}
+@media only screen and (max-width: 379px) {
+  .meohh {
+    font-size: 9px;
+    margin-left: 75px;
+  }
+  .customernumber1 h2{
+    font-size: 15px;
+  }
+  .aboutus{
+    width: 359px;;
   }
 }
 
